@@ -7,11 +7,15 @@ import org.springframework.web.bind.annotation.RestController;
 public class WebController {
 	
 	@PostMapping("/")
-	public String saveWebInfo()
+	public void saveWebInfo()
 	{
 		
 		
-		return "Chand Naik";
+		System.out.println("Chand Naik");
+
+		System.out.println("Rahul Bhau Umate");
+
+	
 		
 		
 	}
