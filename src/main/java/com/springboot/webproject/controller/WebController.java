@@ -11,7 +11,8 @@ public class WebController {
 	{
 		
 		
-		return "this info is saved";
+		return "String....";
+		
 		
 	}
 }
