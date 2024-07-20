@@ -1,22 +1,15 @@
-package com.springboot.webproject.controller;
+	package com.springboot.webproject.controller;
 
-import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class WebController {
 	
-	@PostMapping("/")
-	public void saveWebInfo()
-	{
-		
-		
-		System.out.println("Chand Naik");
-
-		System.out.println("Rahul Bhau Umate");
-
-	
-		
-		
+	@GetMapping("/name")
+	public String getName() {
+		return"Rahul";
 	}
+		
+	
 }
